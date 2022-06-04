@@ -5,8 +5,15 @@ body {
 
 .balance-display {
   background-color: #ec755d;
+  color: white;
+  padding: 10px;
+  margin: 50px 10px 10px 10px;
+  border-radius: 5px;
 }
 
 .chart-section {
   background-color: #fffcf7;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
 }
