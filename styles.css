@@ -18,10 +18,18 @@ body {
   border-radius: 5px;
 }
 
+.spending-title {
+  color: #453c31;
+}
+
 .attribution {
   font-size: 8px;
   text-align: center;
   color: slategray;
+}
+
+.small-text {
+  color: #d4cfc8;
 }
 
 a {
