@@ -12,18 +12,25 @@ hr {
   color: white;
   padding: 10px;
   margin: 50px 10px 10px 10px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .chart-section {
   background-color: #fffcf7;
   padding: 10px;
   margin: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .spending-title {
   color: #453c31;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.days-of-the-week {
+  color: #d4cfc8;
+  font-size: 12px;
 }
 
 .attribution {
