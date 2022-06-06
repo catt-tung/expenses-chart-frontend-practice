@@ -1,6 +1,6 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f7e9dc;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .balance-display {
@@ -34,4 +34,20 @@ body {
 
 a {
   color: lightseagreen;
+}
+
+.total {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.month-total {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.totals {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
