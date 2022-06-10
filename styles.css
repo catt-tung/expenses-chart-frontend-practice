@@ -31,6 +31,9 @@ hr {
 .days-of-the-week {
   color: #d4cfc8;
   font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .attribution {
