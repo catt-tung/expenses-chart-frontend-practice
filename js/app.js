@@ -4,9 +4,13 @@
 // first get it to display the numbers
 // then get it to visually display/render the numbers
 
+//cached element references
+// const mon = document.getElementById("mon")
+const tue = document.getElementById("tue")
+const wed = document.getElementById("wed")
 
 // variables
-let spreadsheetData
+let days = document.getElementsByClassName('day')
 // functions
 //api call to fetch data from json file
 fetch('../data.json')
@@ -18,6 +22,15 @@ fetch('../data.json')
 // display the data
 function displayData(data) {
   for (let i=0; i < data.length; i++) {
-    console.log(data[i].amount)
+    if (data[i].day === days[i].innerHTML) {
+      console.log(data[i].amount)
+    }
+    // console.log(data[i].amount)
   }
 }
+function displayDays() {
+  for (let i=0; i< days.length; i++) {
+    console.log(days[i].innerHTML)
+  }
+}
+displayDays()
