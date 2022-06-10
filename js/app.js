@@ -23,9 +23,9 @@ fetch('../data.json')
 function displayData(data) {
   for (let i=0; i < data.length; i++) {
     if (data[i].day === days[i].innerHTML) {
-      console.log(data[i].amount)
+      console.log(data[i].amount + data[i].day)
+      days[i].innerHTML = data[i].amount + " " + days[i].innerHTML
     }
-    // console.log(data[i].amount)
   }
 }
 function displayDays() {
